@@ -8,11 +8,11 @@ public class Person {
 	private LocalDate bdate;
 	public Person() {
 		super();
-		System.out.println("in Person default constructor");
+		//System.out.println("in Person default constructor");
 	}
 	public Person(int pid, String pname, String address, LocalDate bdate) {
 		super();
-		System.out.println("in person parametrized constructor");
+		//System.out.println("in person parametrized constructor");
 		//change the code to autogenerate ID, 
 		// faculty Id should start with f, masterStudent id should starts with m
 		//and graduate student id should start with g

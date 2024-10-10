@@ -5,7 +5,7 @@ public class MasterStudent extends Student{
 	private String thesissub,degree;
 	private int thesismarks;
 	public MasterStudent() {
-		
+		super();
 	}
 	public MasterStudent(int pid, String pname, String address, LocalDate bdate,int[] marks,String thesissub, String degree, int thesismarks) {
 		//calls parametrised constructor
@@ -43,4 +43,6 @@ public class MasterStudent extends Student{
 	public String toString() {
 		return super.toString()+"MasterStudent [thesissub=" + thesissub + ", degree=" + degree + ", thesismarks=" + thesismarks + "]";
 	}
+	
+
 }
